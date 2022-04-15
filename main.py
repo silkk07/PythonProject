@@ -3,7 +3,7 @@ import csv_test
 
 # save_file = r"C:\Users\chand\Desktop\PythonProjects\spreadsheets\"
 
-save_file = r"./"
+save_file = "C:\\Users\\chand\\Desktop\\PythonProjects\\spreadsheets\\"
 # get the Gmail API service
 csv_test.collect_data(save_file)
 

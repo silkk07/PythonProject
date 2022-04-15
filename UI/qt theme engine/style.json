@@ -1,0 +1,21 @@
+{
+    "QMainWindow": [
+        {
+            "tittle": "Qt Theme Engine"
+        }
+    ],
+    "QSettings": [
+        {
+            "ThemeSettings": [
+                {
+                    "CustomTheme": []
+                }
+            ],
+            "AppSettings": {
+                "OrginizationName": "Qt Theme Engine",
+                "ApplicationName": "Spinn Org",
+                "OrginizationDormain": "spinn.org"
+            }
+        }
+    ]
+}

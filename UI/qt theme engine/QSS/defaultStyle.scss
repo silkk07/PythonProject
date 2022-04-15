@@ -1,0 +1,27 @@
+//===================================================//
+// FILE AUTO-GENERATED. PUT YOUR DEFAULT STYLES HERE. 
+// THESE STYLES WILL OVERIDE THE THEME STYLES
+//====================================================//
+*{
+    border: none;
+    background-color: transparent;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    color: $COLOR_TEXT_1;
+}
+#centralwidget{
+    background-color: $COLOR_BACKGROUND_1;
+}
+QProgressBar {
+    height: 1px;
+    border-width: 1px;
+    ::chunk {
+        background-color: $COLOR_ACCENT_4;
+        border-radius: 5px;
+    }
+}
+//===================================================//
+// END //
+//======
+            

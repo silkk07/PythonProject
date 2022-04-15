@@ -5,8 +5,6 @@ import platform
 import os
 import math
 
-# import psutil as ps
-
 # convert
 
 
@@ -30,22 +28,6 @@ def collect_data(path):
     operating_system = platform.system()
     operating_system_release = platform.release()
     operating_system_version = platform.version()
-
-    # CPU
-
-    # physical_core = ps.cpu_count(logical=False)
-    # logical_core = ps.cpu_count(logical=True)
-    # freq_min = ps.cpu_freq().min
-    # freq_max = ps.cpu_freq().max
-    # cpu_util = ps.cpu_percent(interval=1)
-    # cpu_per_util = ps.cpu_percent(interval=1, percpu=True)
-
-    # # RAM
-
-    # total_ram = convert_size(ps.virtual_memory().total)
-    # avail_ram = convert_size(ps.virtual_memory().available)
-    # used_ram = convert_size(ps.virtual_memory().used)
-    # perc_ram = ps.virtual_memory().percent
 
     # csv file
 
